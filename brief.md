@@ -30,5 +30,8 @@ Functioning as a detailed inventory, a Software Bill of Materials (SBOM) records
 
 Resource: CISA - Software Bill of Materials (SBOM) - https://www.cisa.gov/sbom
 ## Misconception in My Track
+It is a common misconception that possessing a Software Bill of Materials (SBOM) guarantees complete software security. While an SBOM delivers crucial visibility into components, aiding in supply chain risk management and known vulnerability detection—as highlighted in the CISA guide's 'BENEFITS' section—it does not ensure the identification or prevention of all security risks. Consequently, an SBOM should be integrated alongside continuous security testing and routine software updates for effective protection.
 
+Resource: CISA - SBOM FAQ 2024 - https://www.cisa.gov/sites/default/files/2024-07/SBOM%20FAQ%202024.pdf
 ## Open Question
+How can development teams automate SBOM generation and updates to accurately reflect real-time changes in software components? 
