@@ -18,11 +18,17 @@ Designed to improve mobile security, OWASP MASVS establishes standard requiremen
 
 Resource: OWASP MASVS - https://mas.owasp.org
 ## Networking
+Internet routing relies on BGP to distribute path information, making it susceptible to route hijacking through unauthorized route announcement. This can redirect internet traffic to an unintended destination. RPKI helps network operators verify whether a network is authorized to announce routes for specific IP address ranges. However, RPKI is only one layer of defense, so additional security measures are needed to protect internet traffic from routing attacks. 
 
+Resource: cloudflare -what is BGP? - https://www.cloudflare.com/learning/security/glossary/what-/is-bgp
 ## Cybersecurity
+Characterized as a high-severity flaw, Log4Shell (CVE-2021-44228) exposes Java applications using the Apache Log4j library to remote code execution (RCE) attacks. This can put organizational systems and sensitive information at risk. Remediation requires updating Log4j to a fixed version and scanning affected systems for vulnerable software. Regular checks help organizations confirm that vulnerable versions have been removed and reduce the risk of future attacks.
 
+Resource: NIST - CVE-2021-44228 - https://nvd.nist.gov/vuln/detail/cve-2021-44228
 ## Data
+Functioning as a detailed inventory, a Software Bill of Materials (SBOM) records the components and dependencies included in a software build. It provides organizations with clear visibility into their codebases to detect known vulnerabilities. Important metadata-such as supplier details, version numbers, unique identifiers, and dependency relationships-helps security teams track supply chain risks and respond to vulnerabilities more efficiently. 
 
+Resource: CISA - Software Bill of Materials (SBOM) - https://www.cisa.gov/sbom
 ## Misconception in My Track
 
 ## Open Question
